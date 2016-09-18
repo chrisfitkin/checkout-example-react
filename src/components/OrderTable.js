@@ -1,7 +1,7 @@
 import React from 'react';
 import {Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn} from 'material-ui/Table';
 
-const nesImage = require('../../assets/NES-Console-Set.png');
+const nesImage = require('../assets/NES-Console-Set.png');
 const styles = {
   nesImage: {
     'max-width': 80,

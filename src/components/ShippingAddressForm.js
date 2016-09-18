@@ -8,7 +8,7 @@ const ShippingAddressForm = () => (
     <TextField
         hintText="John Smith"
         floatingLabelText="Name"
-        autocomplete="name" /* this does not work yet!! - find a new implementation */
+        autoComplete="name" /* this does not work yet!! - find a new implementation */
       /><br/>
     <TextField
         hintText="123 Main St, Los Angeles, CA"
