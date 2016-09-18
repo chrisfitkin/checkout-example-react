@@ -1,7 +1,8 @@
 import React from 'react';
 import TextField from 'material-ui/TextField';
 
-
+// TODO: use this place autoComplete
+// https://github.com/ubilabs/react-geosuggest
 
 const ShippingAddressForm = () => (
   <div>
