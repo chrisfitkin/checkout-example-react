@@ -15,6 +15,8 @@ const ShippingAddressForm = () => (
     <TextField
         hintText="123 Main St, Los Angeles, CA"
         floatingLabelText="Address"
+        autoComplete="shipping street-address"
+        required
       />
   </div>
 );
