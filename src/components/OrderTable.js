@@ -1,13 +1,13 @@
 import React from 'react';
-import {Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn} from 'material-ui/Table';
+import Table, {TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn} from 'material-ui/Table';
 
 const nesImage = require('../assets/NES-Console-Set.png');
 const styles = {
   nesImage: {
-    'max-width': 80,
+    maxWidth: 80,
   },
   price: {
-    'font-weight': 'bold',
+    fontWeight: 'bold',
   }
 };
 
@@ -25,7 +25,7 @@ const OrderTable = () => (
       </TableHeader>
       <TableBody>
         <TableRow>
-          <TableRowColumn><img src={nesImage} style={styles.nesImage}/></TableRowColumn>
+          <TableRowColumn><img src={nesImage} style={styles.nesImage} alt="Nintendo Console"/></TableRowColumn>
           <TableRowColumn>NES Console</TableRowColumn>
           <TableRowColumn>1</TableRowColumn>
           <TableRowColumn><span style={styles.price}>$500</span></TableRowColumn>

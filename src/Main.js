@@ -3,14 +3,13 @@
  * which incorporates components provided by Material-UI.
  */
 import React, {Component} from 'react';
-import RaisedButton from 'material-ui/RaisedButton';
-import Dialog from 'material-ui/Dialog';
+// import Dialog from 'material-ui/Dialog';
 // import {deepOrange500} from 'material-ui/styles/colors';
-import FlatButton from 'material-ui/FlatButton';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
+// import FlatButton from 'material-ui/FlatButton';
+// import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
+import Card, { CardTitle, CardText} from 'material-ui/Card';
 // import FlatButton from 'material-ui/FlatButton';
 
 
@@ -24,22 +23,16 @@ const styles = {
     textAlign: 'center',
   },
   cardContainer: {
-    'max-width': 900,
+    maxWidth: 900,
     margin: '0 auto',
     padding: 20,
   },
   card: {
     padding: 20,
-    'margin-top': 20,
-    'margin-bottom': 20,
+    marginTop: 20,
+    marginBottom: 20,
   }
 };
-
-const muiTheme = getMuiTheme({
-  /*palette: {
-    accent1Color: deepOrange500,
-  },*/
-});
 
 class Main extends Component {
   constructor(props, context) {
@@ -66,13 +59,13 @@ class Main extends Component {
   }
 
   render() {
-    const standardActions = (
-      <FlatButton
-        label="Ok"
-        primary={true}
-        onTouchTap={this.handleRequestClose}
-      />
-    );
+    // const standardActions = (
+    //   <FlatButton
+    //     label="Ok"
+    //     primary={true}
+    //     onTouchTap={this.handleRequestClose}
+    //   />
+    // );
 
     return (
       <MuiThemeProvider>
