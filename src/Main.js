@@ -51,7 +51,7 @@ class Main extends Component {
       open: false,
     });
   }
-
+  
   handleTouchTap() {
     this.setState({
       open: true,
